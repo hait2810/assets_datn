@@ -1,5 +1,5 @@
 var subimga = document.querySelectorAll(".imglist");
-var imgmain = document.querySelector(".img_imain")
+var imgmain = document.querySelector(".img_main")
 subimga.forEach((btn) => {
     btn.addEventListener("click", () => {
         console.log("a")
