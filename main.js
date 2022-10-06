@@ -6,6 +6,8 @@ subimga.forEach((btn) => {
         console.log("imgsub", btn.src + '-' + "c" , imgmain);
             subimga.forEach((button) => button.classList.remove('select'))
             btn.classList.add("select")
-            imgmain.src = btn.src
+            if(btn.src) {
+                imgmain.src = btn.src
+            }
     })
 })
